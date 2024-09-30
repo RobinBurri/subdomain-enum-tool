@@ -1,0 +1,12 @@
+services:
+  recon-tools:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./output:/workspace/output
+      - ./scripts:/workspace/scripts
+    environment:
+      - TZ=UTC
+    tty: true
+    stdin_open: true
