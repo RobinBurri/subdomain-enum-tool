@@ -1,2 +1,2 @@
 # subdomain-enum-tool
-A container with all the tools necessary to run a script to enumarate subdomains
+A container with all the tools necessary to run a script to enumerate subdomains
